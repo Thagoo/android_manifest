@@ -2,7 +2,7 @@
 <manifest>
     
    <remote name="nex"
-      fetch="https://github.com/Thagoo"
+      fetch="https://github.com/Nitrogen-Tmod"
       sync-j="16" />
 
    <!--general-->
@@ -29,10 +29,10 @@
 
 
    <!-- hardware -->
-    <project path="hardware/qcom-caf/msm8996/audio" name="platform_hardware_qcom-caf_audio" remote="nex" revision="10"/>
-    <project path="hardware/qcom-caf/msm8996/media" name="platform_hardware_qcom-caf_media" remote="nex" revision="10"/>
-    <project path="hardware/qcom-caf/msm8996/display" name="platform_hardware_qcom-caf_display" remote="nex" revision="10"/>
-    <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="nex" revision="10" />
-<project path="vendor/qcom/opensource/core-utils" name="platform_vendor_qcom_opensource_core-utils" remote="nex" revision="10" />
+    <project path="hardware/qcom-caf/msm8996/audio" name="platform_hardware_qcom-caf_audio" remote="nex" revision="10-msm8996"/>
+    <project path="hardware/qcom-caf/msm8996/media" name="platform_hardware_qcom-caf_media" remote="nex" revision="10-msm8996"/>
+    <project path="hardware/qcom-caf/msm8996/display" name="platform_hardware_qcom-caf_display" remote="nex" revision="10-msm8996"/>
+    <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="nex" revision="10-msm89xx" />
+<project path="vendor/qcom/opensource/core-utils" name="platform_vendor_qcom_opensource_core-utils" remote="nex" revision="10-msm89xx" />
 
 </manifest>
