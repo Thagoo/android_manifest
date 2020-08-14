@@ -28,12 +28,12 @@ GIT config (nickname, e-mail)
 To initialize your local repository use
 ---------------------------------------
 
-    repo init -u https://github.com/Thagoo/android_manifest.git -b 10
+    repo init -u https://github.com/Nitrogen-Tmod/android_manifest.git -b 10
 
 or shallow     
 ----------
 
-    repo init -u https://github.com/Thagoo/android_manifest.git -b 10 --depth=1
+    repo init -u https://github.com/Nitrogen-Tmod/android_manifest.git -b 10 --depth=1
 
 Then to sync up:
 ----------------
